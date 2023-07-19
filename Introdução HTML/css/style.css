@@ -1,0 +1,44 @@
+p{
+    font-size: 20px;
+    color: #ff0602;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+#menu li {
+    display: inline;
+    padding: 250px;
+}
+
+#menu li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(17, 124, 186);
+}
+
+#menu li a:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
